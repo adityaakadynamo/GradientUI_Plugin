@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="root" android:height="52.0dip" android:width="52.0dip" android:viewportWidth="52.0" android:viewportHeight="52.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="2.0" android:translateY="2.0">
+        <path android:fillColor="?android:colorBackground" android:pathData="M47.5,23.5c0,13.2548828-10.7451172,24-24,24s-24-10.7451172-24-24s10.7451172-24,24-24    S47.5,10.2451172,47.5,23.5z" android:strokeColor="@android:color/holo_blue_light" android:strokeWidth="8.0" android:strokeAlpha="0.4" android:strokeMiterLimit="10.0" />
+        <group android:name="vector" android:scaleX="0.8" android:scaleY="0.8" android:translateX="3.7" android:translateY="2.5">
+            <clip-path android:name="mask" android:pathData="M39.1396484-32.9233398L3.3310547-1.3710938l40.9892578,40.9277344l-2.6171875,2.09375L0.5146484,0.7114258    l-34.6201172,25.4702148l55.9667969,69.7421875l73.2451172-59.1054688L39.1396484-32.9233398z" />
+            <group android:translateX="1.0" android:translateY="1.0">
+                <path android:strokeColor="?android:colorEdgeEffect" android:strokeWidth="4.0" android:strokeAlpha="0.4" android:strokeMiterLimit="10.0" android:fillColor="@android:color/holo_blue_bright" android:pathData="M24.0,4.0c-7.7,0.0 -14.0,6.3 -14.0,14.0c0.0,10.5 14.0,26.0 14.0,26.0s14.0,-15.5 14.0,-26.0C38.0,10.3 31.7,4.0 24.0,4.0zM24.0,23.0c-2.8,0.0 -5.0,-2.2 -5.0,-5.0s2.2,-5.0 5.0,-5.0c2.8,0.0 5.0,2.2 5.0,5.0S26.8,23.0 24.0,23.0z" />
+            </group>
+            <group android:name="cross">
+                <path android:name="cross_1" android:fillColor="@android:color/transparent" android:pathData="M7.7124023,10.4169922l31.574707,31.4501953" android:strokeColor="?android:colorControlNormal" android:strokeWidth="3.5" android:strokeAlpha="1.0" />
+            </group>
+        </group>
+    </group>
+</vector>

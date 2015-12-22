@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
+        <!-- <item name="android:dividerHorizontal">?android:listDivider</item> -->
+        <item name="android:dividerVertical">?android:listDivider</item>
+        <!-- <item name="android:listDivider">@drawable/list_divider_material</item> -->
+        <item name="android:textColorPrimary">@android:color/holo_blue_bright</item>
+        <item name="android:textColorSecondary">@android:color/holo_blue_bright</item>
+        <item name="android:colorButtonNormal">@android:color/holo_red_dark</item>
+        <item name="android:colorControlActivated">@android:color/darker_gray</item>
+        <item name="android:colorControlHighlight">@android:color/holo_red_light</item>
+        <item name="android:colorControlNormal">@android:color/holo_red_dark</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:colorForeground">@android:color/transparent</item>
+        <item name="android:colorPrimary">#00000000</item>
+        <item name="android:colorPrimaryDark">#00000000</item>
+        <item name="android:listChoiceBackgroundIndicator">@android:drawable/list_selector_background</item>
+        <item name="android:listPreferredItemPaddingEnd">24.0dip</item>
+        <item name="android:listPreferredItemPaddingLeft">24.0dip</item>
+        <item name="android:listPreferredItemPaddingRight">24.0dip</item>
+        <item name="android:listPreferredItemPaddingStart">24.0dip</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowElevation">16.0dip</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowMinWidthMajor">65.0%</item>
+        <item name="android:windowMinWidthMinor">95.00001%</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+    <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material">
+        <!-- <item name="android:dividerHorizontal">?android:listDivider</item> -->
+        <item name="android:dividerVertical">?android:listDivider</item>
+        <!-- <item name="android:listDivider">@drawable/list_divider_material</item> -->
+        <item name="android:textColorPrimary">@android:color/holo_blue_bright</item>
+        <item name="android:textColorSecondary">@android:color/holo_blue_bright</item>
+        <item name="android:actionBarWidgetTheme">@null</item>
+        <item name="android:actionBarTheme">@android:style/ThemeOverlay.Material.Dark.ActionBar</item>
+        <item name="android:colorButtonNormal">@android:color/holo_red_dark</item>
+        <item name="android:colorControlActivated">@android:color/darker_gray</item>
+        <item name="android:colorControlHighlight">@android:color/holo_red_light</item>
+        <item name="android:colorControlNormal">@android:color/holo_red_dark</item>
+        <item name="preferenceBackgroundColor">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:colorForeground">@android:color/transparent</item>
+        <item name="android:colorPrimary">#00000000</item>
+        <item name="android:colorPrimaryDark">#00000000</item>
+        <item name="android:listChoiceBackgroundIndicator">@android:drawable/list_selector_background</item>
+        <item name="android:listPreferredItemPaddingEnd">24.0dip</item>
+        <item name="android:listPreferredItemPaddingLeft">24.0dip</item>
+        <item name="android:listPreferredItemPaddingRight">24.0dip</item>
+        <item name="android:listPreferredItemPaddingStart">24.0dip</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowElevation">16.0dip</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowMinWidthMajor">65.0%</item>
+        <item name="android:windowMinWidthMinor">95.00001%</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:elevation">0.0dip</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundSplit">@android:color/transparent</item>
+        <item name="android:backgroundStacked">@android:color/transparent</item>
+        <item name="android:divider">?android:listDivider</item>
+        <item name="android:itemPadding">8.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:progressBarPadding">32.0dip</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.SubSettingsDialogWhenLarge" parent="@android:style/Theme.Material">
+        <!-- <item name="android:dividerHorizontal">?android:listDivider</item> -->
+        <item name="android:dividerVertical">?android:listDivider</item>
+        <!-- <item name="android:listDivider">@drawable/list_divider_material</item> -->
+        <item name="android:textColorPrimary">@android:color/holo_blue_bright</item>
+        <item name="android:textColorSecondary">@android:color/holo_blue_bright</item>
+        <item name="android:actionBarWidgetTheme">@null</item>
+        <item name="android:actionBarTheme">@android:style/ThemeOverlay.Material.Dark.ActionBar</item>
+        <item name="android:colorButtonNormal">@android:color/holo_red_dark</item>
+        <item name="android:colorControlActivated">@android:color/darker_gray</item>
+        <item name="android:colorControlHighlight">@android:color/holo_red_light</item>
+        <item name="android:colorControlNormal">@android:color/holo_red_dark</item>
+        <item name="preferenceBackgroundColor">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:colorForeground">@android:color/transparent</item>
+        <item name="android:colorPrimary">#00000000</item>
+        <item name="android:colorPrimaryDark">#00000000</item>
+        <item name="android:listChoiceBackgroundIndicator">@android:drawable/list_selector_background</item>
+        <item name="android:listPreferredItemPaddingEnd">24.0dip</item>
+        <item name="android:listPreferredItemPaddingLeft">24.0dip</item>
+        <item name="android:listPreferredItemPaddingRight">24.0dip</item>
+        <item name="android:listPreferredItemPaddingStart">24.0dip</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowElevation">16.0dip</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowMinWidthMajor">65.0%</item>
+        <item name="android:windowMinWidthMinor">95.00001%</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+    <style name="Theme.AlertDialog" parent="@android:style/Theme.Material">
+        <!-- <item name="android:dividerHorizontal">?android:listDivider</item> -->
+        <item name="android:dividerVertical">?android:listDivider</item>
+        <!-- <item name="android:listDivider">@drawable/list_divider_material</item> -->
+        <item name="android:textColorPrimary">@android:color/holo_blue_bright</item>
+        <item name="android:textColorSecondary">@android:color/holo_blue_bright</item>
+        <item name="android:listDividerAlertDialog">@null</item>
+        <item name="android:colorButtonNormal">@android:color/holo_red_dark</item>
+        <item name="android:colorControlActivated">@android:color/darker_gray</item>
+        <item name="android:colorControlHighlight">@android:color/holo_red_light</item>
+        <item name="android:colorControlNormal">@android:color/holo_red_dark</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:colorForeground">@android:color/transparent</item>
+        <item name="android:listPreferredItemPaddingEnd">24.0dip</item>
+        <item name="android:listPreferredItemPaddingLeft">24.0dip</item>
+        <item name="android:listPreferredItemPaddingRight">24.0dip</item>
+        <item name="android:listPreferredItemPaddingStart">24.0dip</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowElevation">16.0dip</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowMinWidthMajor">65.0%</item>
+        <item name="android:windowMinWidthMinor">95.00001%</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="Theme.SwitchBar.Settings" parent="@android:style/Theme.Material">
+        <!-- <item name="android:dividerHorizontal">?android:listDivider</item> -->
+        <item name="android:dividerVertical">?android:listDivider</item>
+        <item name="android:listDivider">@drawable/list_divider_material</item>
+        <item name="android:textColorPrimary">@android:color/holo_blue_bright</item>
+        <item name="android:textColorSecondary">@android:color/holo_blue_bright</item>
+        <item name="preferenceBackgroundColor">@android:color/transparent</item>
+        <item name="android:colorButtonNormal">@android:color/holo_red_dark</item>
+        <item name="android:colorControlActivated">@android:color/darker_gray</item>
+        <item name="android:colorControlHighlight">@android:color/holo_red_light</item>
+        <item name="android:colorControlNormal">@android:color/holo_red_dark</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:colorForeground">@android:color/transparent</item>
+        <item name="android:listChoiceBackgroundIndicator">@android:drawable/list_selector_background</item>
+        <item name="android:listPreferredItemPaddingEnd">24.0dip</item>
+        <item name="android:listPreferredItemPaddingLeft">24.0dip</item>
+        <item name="android:listPreferredItemPaddingRight">24.0dip</item>
+        <item name="android:listPreferredItemPaddingStart">24.0dip</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowElevation">16.0dip</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowMinWidthMajor">65.0%</item>
+        <item name="android:windowMinWidthMinor">95.00001%</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="switchBarMarginEnd">16.0dip</item>
+        <item name="switchBarMarginStart">16.0dip</item>
+    </style>
+    <style name="Theme.SwitchBar.SubSettings" parent="@android:style/Theme.Material">
+        <!-- <item name="android:dividerHorizontal">?android:listDivider</item> -->
+        <item name="android:dividerVertical">?android:listDivider</item>
+        <item name="android:listDivider">@drawable/list_divider_material</item>
+        <item name="android:textColorPrimary">@android:color/holo_blue_bright</item>
+        <item name="android:textColorSecondary">@android:color/holo_blue_bright</item>
+        <item name="preferenceBackgroundColor">@android:color/transparent</item>
+        <item name="android:colorButtonNormal">@android:color/holo_red_dark</item>
+        <item name="android:colorControlActivated">@android:color/darker_gray</item>
+        <item name="android:colorControlHighlight">@android:color/holo_red_light</item>
+        <item name="android:colorControlNormal">@android:color/holo_red_dark</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:colorForeground">@android:color/transparent</item>
+        <item name="android:listChoiceBackgroundIndicator">@android:drawable/list_selector_background</item>
+        <item name="android:listPreferredItemPaddingEnd">24.0dip</item>
+        <item name="android:listPreferredItemPaddingLeft">24.0dip</item>
+        <item name="android:listPreferredItemPaddingRight">24.0dip</item>
+        <item name="android:listPreferredItemPaddingStart">24.0dip</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowElevation">16.0dip</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowMinWidthMajor">65.0%</item>
+        <item name="android:windowMinWidthMinor">95.00001%</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="switchBarMarginEnd">16.0dip</item>
+        <item name="switchBarMarginStart">72.0dip</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:textColorHighlight">@android:color/holo_red_dark</item>
+        <item name="android:textColorHint">@android:color/holo_red_dark</item>
+        <item name="android:textColorLink">@android:color/holo_red_dark</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5.0</item>
+        <item name="android:shadowDy">8.0</item>
+        <item name="android:shadowRadius">20.0</item>
+    </style>
+    <style name="TextAppearance.Material" parent="@style/TextAppearance">
+        <!-- <item name="android:textSize">14.0sp</item> -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:textColorHighlight">@android:color/holo_red_dark</item>
+        <item name="android:textColorHint">@android:color/holo_red_dark</item>
+        <item name="android:textColorLink">@android:color/holo_red_dark</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5.0</item>
+        <item name="android:shadowDy">8.0</item>
+        <item name="android:shadowRadius">8.0</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="TextAppearance.CategoryTitle" parent="@android:style/TextAppearance.Material.Body2">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <!-- <style name="TextAppearance.Material.Body2" parent="@style/TextAppearance.Material">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style> -->
+    <style name="TextAppearance.TileTitle" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <!-- <style name="TextAppearance.Material.Medium" parent="@style/TextAppearance.Material">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+    </style> -->
+    <style name="TextAppearance.TileSubTitle" parent="@style/TextAppearance.Material.Small">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="TextAppearance.Material.Small" parent="@style/TextAppearance.Material">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+    </style>
+    <style name="TextAppearance.PagerTabs" parent="@android:style/TextAppearance.Material.Body2">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="TextAppearance.Small" parent="@android:style/TextAppearance.Material.Body2">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="TextAppearance.info_small" parent="@style/TextAppearance">
+        <item name="android:textSize">12.0sp</item>
+    </style>
+    <style name="TextAppearance.info_value" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="TextAppearance.PasswordEntry" parent="@style/TextAppearance.Material">
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="TextAppearance.CryptKeeper_PasswordEntry" parent="@style/TextAppearance.Material">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:textSize">36.0sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionDone|flagForceAscii</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="TextAppearance.info_label" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="TextAppearance.RecentsTitle" parent="@style/TextAppearance.CategoryTitle" />
+    <style name="TextAppearance.ResultTitle" parent="@style/TextAppearance.CategoryTitle" />
+    <style name="TextAppearance.Switch" parent="@style/TextAppearance.Medium" />
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="TextAppearance.SetupWizardCardTitle" parent="@style/TextAppearance.Material.Display1">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="TextAppearance.Material.Display1" parent="@style/TextAppearance.Material">
+        <item name="android:textSize">34.0sp</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="TextAppearance.CategoryTitleText" parent="@android:style/TextAppearance.Material.Body2">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="ThemeOverlay.SwitchBar" parent="@android:style/ThemeOverlay">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
+    <style name="SetupAddWifiNetwork">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:paddingStart">56.0dip</item>
+    </style>
+    <style name="info_label">
+        <item name="android:textAppearance">@style/TextAppearance.info_label</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingEnd">4.0dip</item>
+    </style>
+    <style name="info_value">
+        <item name="android:textAppearance">@style/TextAppearance.info_value</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="info_small">
+        <item name="android:textAppearance">@style/TextAppearance.info_small</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="wifi_item_label">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Body1</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingStart">8.0dip</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="wifi_item_content">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Subhead</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.Material.Subhead" parent="@style/TextAppearance.Material">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="vpn_label">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="vpn_value">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="bt_item">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:gravity">start</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+        <item name="android:layout_marginEnd">16.0dip</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="bt_item_label">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="bt_item_edit_content">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="wifi_item">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:gravity">start</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:paddingStart">8.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
+        <item name="android:layout_marginStart">8.0dip</item>
+        <item name="android:layout_marginEnd">8.0dip</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="wifi_item_edit_content">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:paddingStart">4.0dip</item>
+        <item name="android:layout_marginStart">4.0dip</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="wifi_section">
+        <item name="android:orientation">vertical</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="SetupCardTitle">
+        <item name="android:textAppearance">@style/TextAppearance.SetupWizardCardTitle</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingBottom">28.0dip</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="SetupTitle">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:clickable">false</item>
+        <item name="android:longClickable">false</item>
+        <item name="android:layout_marginBottom">16.0dip</item>
+        <item name="android:lineSpacingExtra">3.669983sp</item>
+        <item name="android:layout_marginStart">40.0dip</item>
+        <item name="android:layout_marginEnd">40.0dip</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="VertDivider">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TopDivider">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+        <item name="android:layout_marginTop">6.0dip</item>
+        <item name="android:layout_marginBottom">7.0dip</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="floating_action_button_image">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">24.0dip</item>
+        <item name="android:layout_height">24.0dip</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="PreferenceHeaderPanelSinglePane">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+        <item name="android:layout_marginEnd">0.0dip</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="setup_wizard_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Transparent">
+        <item name="android:windowBackground">@drawable/empty_icon</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="KeyguardAppWidgetItem">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:shadowColor">#ff999999</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowRadius">20.0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

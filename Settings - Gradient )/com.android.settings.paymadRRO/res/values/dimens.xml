@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <dimen name="cardview_default_radius">2.0dip</dimen> -->
+    <!-- <dimen name="setup_wizard_card_corner_radius">2.0dip</dimen> -->
+    <dimen name="circle_avatar_frame_shadow_radius">15.0dip</dimen>
+
+    <dimen name="actionbar_contentInsetStart">12.0dip</dimen>
+    <dimen name="control_corner_dashboard">2.0dip</dimen>
+    <dimen name="dashboard_category_bottomLeftRadius">4.0dip</dimen>
+    <dimen name="dashboard_category_bottomRightRadius">4.0dip</dimen>
+    <dimen name="dashboard_category_topLeftRadius">4.0dip</dimen>
+    <dimen name="dashboard_category_topRightRadius">4.0dip</dimen>
+    <dimen name="dashboard_padding_bottom">8.0dip</dimen>
+    <dimen name="dashboard_padding_end">12.0dip</dimen>
+    <dimen name="dashboard_padding_start">12.0dip</dimen>
+    <dimen name="dashboard_padding_top">8.0dip</dimen>
+    <dimen name="divider_height">0.0dip</dimen>
+    <dimen name="divider_margin_bottom">0.0dip</dimen>
+    <dimen name="divider_margin_top">0.0dip</dimen>
+
+    <dimen name="dashboard_category_title_height">0.0dip</dimen>
+    <dimen name="dashboard_category_elevation">2.0dip</dimen>
+    <dimen name="dashboard_tile_image_size">30.0dip</dimen>
+    <dimen name="dashboard_category_padding_start">8.0dip</dimen>
+    <dimen name="dashboard_category_padding_end">8.0dip</dimen>
+    <!-- <dimen name="dashboard_padding_start">16.0dip</dimen> -->
+    <!-- <dimen name="dashboard_padding_end">16.0dip</dimen> -->
+    <!-- <dimen name="dashboard_padding_top">20.0dip</dimen> -->
+    <!-- <dimen name="dashboard_padding_bottom">8.0dip</dimen> -->
+    <dimen name="setup_wizard_card_corner_radius">15.0dip</dimen>
+    <dimen name="cardview_default_radius">67.0dip</dimen>
+
+    <!-- <dimen name="dashboard_padding_start">12.0dip</dimen>
+    <dimen name="dashboard_padding_end">12.0dip</dimen>
+    <dimen name="dashboard_padding_top">12.0dip</dimen>
+    <dimen name="dashboard_padding_bottom">12.0dip</dimen>
+    <dimen name="cardview_default_radius">5.0dip</dimen>
+    <dimen name="setup_wizard_card_corner_radius">2.0dip</dimen> -->
+    <dimen name="suw_card_corner_radius">8.0dip</dimen>
+    <dimen name="cardview_default_elevation">3.0dip</dimen>
+<!-- cards 
+    <dimen name="dashboard_cell_gap_x">0.0dip</dimen>
+    <dimen name="dashboard_cell_gap_y">0.0dip</dimen>
+-->
+<!--    <dimen name="dashboard_padding_start">15.0dip</dimen>
+    <dimen name="dashboard_padding_end">15.0dip</dimen>
+    <dimen name="dashboard_padding_top">25.0dip</dimen>
+    <dimen name="dashboard_padding_bottom">25.0dip</dimen>-->
+<!-- without cards remove 7 to 10--> 
+    <dimen name="dashboard_cell_gap_x">0.0dip</dimen>
+    <dimen name="dashboard_cell_gap_y">0.0dip</dimen>
+    <dimen name="text_size_body_1_material">14.0sp</dimen>
+
+
+</resources>

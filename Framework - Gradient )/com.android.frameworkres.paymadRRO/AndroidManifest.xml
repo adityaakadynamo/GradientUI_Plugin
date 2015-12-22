@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.frameworkres.paymadRRO"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23"
+        android:maxSdkVersion="21" />
+<!--
+Targeting the right packageName of the 'target.apk' here!  
+We can find the real packageName in the AndroidManifest.xml of original target.apk!
+So the matching resources id can be set in accordance.
+-->
+<overlay android:targetPackage="android" android:priority="50" />
+
+
+<!-- proper tagging for Overlay manager to parse
+  change as needed, but must include "name" and "value"-->
+
+    <meta-data android:name="rom" android:value="Many Roms"/>
+    <meta-data android:name="infoShort" android:value="Framework-res theme"/>
+    <meta-data android:name="infoLong" android:value="This will change framework to paymad theme"/>
+    <meta-data android:name="author" android:value="Troubadour666"/>
+
+
+
+
+</manifest>

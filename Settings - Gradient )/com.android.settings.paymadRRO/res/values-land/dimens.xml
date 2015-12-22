@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dashboard_cell_gap_x">0.0dip</dimen>
+    <dimen name="dashboard_cell_gap_y">0.0dip</dimen>
+</resources>

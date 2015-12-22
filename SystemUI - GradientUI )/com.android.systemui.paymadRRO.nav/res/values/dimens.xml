@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_background_default_radius">15.0dip</dimen>
+    <item type="dimen" name="card_shadow_view_margin_start">@dimen/card_background_default_radius</item>
+    <item type="dimen" name="card_shadow_view_margin_end">@dimen/card_background_default_radius</item>
+    <!-- <dimen name="notification_material_shadow_rounded_rect_radius">0.0dip</dimen> -->
+    <item type="dimen" name="zen_mode_panel_radius">22.0dip</item>
+    <dimen name="navbar_search_outerring_radius">100.0dip</dimen>
+    <!-- <dimen name="borderless_button_radius">2.0dip</dimen> -->
+    <dimen name="glowpadview_glow_radius">150.0dip</dimen>
+    <dimen name="glowpadview_inner_radius">30.0dip</dimen>
+    <!-- <dimen name="recents_task_view_rounded_corners_radius">2.0dip</dimen> -->
+    <dimen name="keyguard_affordance_min_background_radius">12.0dip</dimen>
+    <!-- <dimen name="notification_material_rounded_rect_radius">2.0dip</dimen> -->
+    <!-- <dimen name="notification_material_rounded_rect_radius_negative">-2.0dip</dimen> -->
+    <dimen name="trust_circle_inner_radius_visible_min">42.0dip</dimen>
+    <dimen name="trust_circle_inner_radius_visible_max">44.0dip</dimen>
+    <dimen name="trust_circle_inner_radius_exit">20.0dip</dimen>
+    <dimen name="trust_circle_inner_radius_enter">40.0dip</dimen>
+    <dimen name="pie_snap_radius">90.0dip</dimen>
+    <dimen name="pie_navbar_radius">40.0dip</dimen>
+    <dimen name="pie_navbar_second_layer_radius">200.0dip</dimen>
+    <dimen name="pie_sysinfo_radius">105.0dip</dimen>
+    <dimen name="pie_sysinfo_second_layer_radius">200.0dip</dimen>
+    <dimen name="glowpadview_target_placement_radius">80.0dip</dimen>
+    <dimen name="keyguard_avatar_frame_shadow_radius">12.0dip</dimen>
+
+    <dimen name="notification_side_padding">0.0dip</dimen>
+    <dimen name="notification_collapse_second_card_padding">4.0dip</dimen>
+    <dimen name="notification_padding">2.0dip</dimen>
+
+    <dimen name="status_bar_clock_size">16.0sp</dimen>
+    <dimen name="status_bar_edge_ignore">0.0dip</dimen>
+    <dimen name="qs_tile_icon_size">36.0dip</dimen>
+    <dimen name="qs_tile_height">100.0dip</dimen>
+    <dimen name="recents_task_view_rounded_corners_radius">23.0dip</dimen>
+    <dimen name="notification_material_rounded_rect_radius">22.0dip</dimen>
+    <dimen name="notification_material_rounded_rect_radius_negative">-18.0dip</dimen>
+    <dimen name="notification_material_shadow_rounded_rect_radius">15.0dip</dimen>
+    <dimen name="borderless_button_radius">5.0dip</dimen>
+</resources>

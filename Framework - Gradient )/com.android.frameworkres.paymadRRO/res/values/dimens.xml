@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyguard_avatar_frame_shadow_radius">1.0dip</dimen>
+    <dimen name="subtitle_corner_radius">20.0dip</dimen>
+    <dimen name="subtitle_shadow_radius">10.0dip</dimen>
+    <dimen name="datepicker_day_number_select_circle_radius">35.0dip</dimen>
+    <dimen name="light_radius">800.0dip</dimen>
+
+    <!-- <dimen name="toast_y_offset">-5.0dip</dimen> -->
+    <dimen name="action_bar_elevation_material">0.0dip</dimen>
+    <dimen name="button_elevation_material">0.0dip</dimen>
+    <!-- <dimen name="control_corner_material">4.0dip</dimen> -->
+    <dimen name="resolver_max_width">720.0dip</dimen>
+    <dimen name="navigation_bar_height">48.0dip</dimen>
+
+    <!-- <dimen name="subtitle_corner_radius">2.0dip</dimen> -->
+    <dimen name="control_corner_material">20.0dip</dimen>
+    <dimen name="alert_dialog_round_padding">27.0dip</dimen>
+    <dimen name="toast_y_offset">125.0dip</dimen>
+    <dimen name="floating_window_z">16.0dip</dimen>
+    <dimen name="dialog_padding_top_material">18.0dip</dimen>
+    <dimen name="text_size_title_material">20.0sp</dimen>
+</resources>

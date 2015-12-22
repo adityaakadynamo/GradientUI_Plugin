@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- <item type="drawable" name="notification_template_divider">@android:color/transparent</item>
+    <item type="drawable" name="notification_template_divider_media">@android:color/transparent</item> -->
+
+    <!--
+    <item type="drawable" name="screen_background_holo_light">#ff000000</item>
+    <item type="drawable" name="screen_background_holo_dark">#ff000000</item>
+    <item type="drawable" name="screen_background_dark">#ff000000</item>
+    <item type="drawable" name="screen_background_light">#ff000000</item>
+    -->
+    <item type="drawable" name="screen_background_dark_transparent">#80000066</item>
+    <item type="drawable" name="screen_background_light_transparent">#80000066</item>
+
+    <item type="drawable" name="status_bar_closed_default_background">#ff000000</item>
+    <item type="drawable" name="status_bar_opened_default_background">#ff000000</item>
+    <item type="drawable" name="search_bar_default_color">#ff000000</item>
+    <!-- <item type="drawable" name="safe_mode_background">#60000000</item> -->
+    <item type="drawable" name="input_method_fullscreen_background">#ff000000</item>
+    <item type="drawable" name="selected_day_background">#500092f4</item>
+    <item type="drawable" name="notification_template_icon_bg">#5033b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#5033b5e5</item>
+    <!-- <item type="drawable" name="notification_template_divider">#ffd300</item> -->
+    <!-- <item type="drawable" name="notification_template_divider_media">#ffd300</item> -->
+    <!-- <item type="drawable" name="screen_background_holo_light">#ff000000</item> -->
+    <!-- <item type="drawable" name="screen_background_holo_dark">#ff000000</item> -->
+
+</resources>

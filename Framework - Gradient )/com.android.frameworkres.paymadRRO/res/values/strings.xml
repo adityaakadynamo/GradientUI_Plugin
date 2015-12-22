@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="font_family_body_1_material">sans-serif</string>
+    <string name="font_family_title_material">sans-serif-medium</string>
+    <string name="number_picker_increment_button">Increase</string>
+    <string name="number_picker_decrement_button">Decrease</string>
+</resources>

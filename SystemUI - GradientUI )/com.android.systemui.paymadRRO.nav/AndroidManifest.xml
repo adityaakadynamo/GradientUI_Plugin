@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.systemui.paymadRRO.nav"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23"
+        android:maxSdkVersion="21" />
+
+<overlay android:targetPackage="com.android.systemui" android:priority="50"/>
+    <meta-data android:name="rom" android:value="Many Roms"/>
+    <meta-data android:name="infoShort" android:value="paymad theme"/>
+    <meta-data android:name="infoLong" android:value="This will theme systemui to paymad theme"/>
+    <meta-data android:name="author" android:value="Troubadour666"/>
+</manifest>

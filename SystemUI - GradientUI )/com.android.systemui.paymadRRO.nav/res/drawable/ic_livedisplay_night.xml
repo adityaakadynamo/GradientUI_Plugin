@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="root" android:height="52.0dip" android:width="52.0dip" android:viewportWidth="52.0" android:viewportHeight="52.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="2.0" android:translateY="2.0">
+        <path android:fillColor="?android:colorBackground" android:pathData="M47.5,23.5c0,13.2548828-10.7451172,24-24,24s-24-10.7451172-24-24s10.7451172-24,24-24    S47.5,10.2451172,47.5,23.5z" android:strokeColor="@android:color/holo_blue_light" android:strokeWidth="8.0" android:strokeAlpha="0.4" android:strokeMiterLimit="10.0" />
+        <group android:name="vector" android:scaleX="1.0" android:scaleY="1.0" android:translateX="0.2" android:translateY="-0.3">
+            <path android:strokeColor="?android:colorEdgeEffect" android:strokeWidth="4.0" android:strokeAlpha="0.4" android:strokeMiterLimit="10.0" android:fillColor="@android:color/holo_blue_bright" android:pathData="M28.75,28.75c0.5996094-0.5996094,1.0507813-1.1992188,1.3496094-1.8007813    C27.25,28.4492188,23.6503906,28,21.4003906,25.5996094s-2.8496094-6-1.3496094-8.6992188    c-0.75,0.2993164-1.3515625,0.75-1.8007813,1.3496094c-3,3-3,7.6503906,0,10.6503906S25.9003906,31.75,28.75,28.75z M34,13v21H13    V13H34 M34,10H13c-1.6503906,0-3,1.3496094-3,3v21c0,1.6503906,1.3496094,3,3,3h21c1.6503906,0,3-1.3496094,3-3V13    C37,11.3496094,35.6503906,10,34,10L34,10z M5.5,5.5" />
+        </group>
+    </group>
+</vector>

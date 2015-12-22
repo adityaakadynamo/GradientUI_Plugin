@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/background">
+        <rotate android:fromDegrees="0.0" android:toDegrees="1080.0"  android:pivotX="50.0%" android:pivotY="50.0%">
+            <shape android:dither="true" android:visible="true" android:shape="rectangle" android:useLevel="false" android:thickness="10dp">
+            <gradient android:startColor="#0a00FFFF" android:endColor="#a000FFFF" android:angle="270.0" android:centerY="0.75" android:centerColor="#a000FFFF" />
+            <corners android:radius="25.0dip" />
+            <size android:height="2.0dip" android:width="22.0dip" />
+            <stroke android:width="10.0dip" android:color="#2fff6347" />
+        </shape>
+    </rotate>
+    </item>
+    <item android:id="@id/secondaryProgress">
+        <clip>
+        <rotate android:fromDegrees="0.0" android:toDegrees="1080.0"  android:pivotX="50.0%" android:pivotY="50.0%">
+            <shape android:dither="true" android:visible="true" android:shape="rectangle" android:useLevel="false" android:thickness="10dp">
+                <corners android:radius="25.0dip" />
+                <size android:height="22.0dip" android:width="2.0dip" />
+                <stroke android:width="20.0dip" android:color="#2a00FFFF" />
+                <gradient android:startColor="#0fffd300" android:endColor="#0fffcb00" android:angle="270.0" android:centerY="0.75" android:centerColor="#2a00FFFF" />
+            </shape>
+    </rotate>
+        </clip>
+    </item>
+    <item android:id="@id/progress">
+        <clip>
+        <rotate android:fromDegrees="0.0" android:toDegrees="1080.0"  android:pivotX="50.0%" android:pivotY="50.0%">
+            <shape android:dither="true" android:visible="true" android:shape="rectangle" android:useLevel="false" android:thickness="10dp">
+                <corners android:radius="25.0dip" />
+                <size android:height="2.0dip" android:width="2.0dip" />
+                <stroke android:width="5.0dip" android:color="#2a00FFFF" />
+                <gradient android:startColor="#0fffd300" android:endColor="#0fffcb00" android:angle="270.0" android:centerY="0.75" android:centerColor="#2a00FFFF" />
+            </shape>
+    </rotate>
+        </clip>
+    </item>
+</layer-list>

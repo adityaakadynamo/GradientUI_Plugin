@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="numberPickerStyle" format="reference" />
+    <attr name="windowFixedWidthMajor" format="dimension|fraction" />
+    <attr name="windowFixedHeightMinor" format="dimension|fraction" />
+    <attr name="windowFixedWidthMinor" format="dimension|fraction" />
+    <attr name="windowFixedHeightMajor" format="dimension|fraction" />
+    <attr name="hideWheelUntilFocused" format="boolean" />
+    <attr name="amPmSelectedBackgroundColor" format="color" />
+    <attr name="selectionDivider" format="reference" />
+    <attr name="selectionDividerHeight" format="dimension" />
+    <attr name="selectionDividersDistance" format="dimension" />
+    <attr name="internalMinHeight" format="dimension" />
+    <attr name="internalMaxHeight" format="dimension" />
+    <attr name="internalMinWidth" format="dimension" />
+    <attr name="internalMaxWidth" format="dimension" />
+    <attr name="virtualButtonPressedDrawable" format="reference" />
+    <attr name="legacyLayout" format="reference" />
+    <attr name="internalLayout" format="reference" />
+    <attr name="calendarSelectedTextColor" format="color" />
+    <attr name="headerSelectedTextColor" format="color" />
+    <attr name="buttonPanelSideLayout" format="reference" />
+    <attr name="searchWidgetCorpusItemBackground" format="reference|color" />
+    <attr name="textColorPrimaryActivated" format="reference|color" />
+    <attr name="textColorSecondaryActivated" format="reference|color" />
+    <attr name="needsDefaultBackgrounds" format="boolean" />
+    <attr name="headerRemoveIconIfEmpty" format="boolean" />
+    <attr name="horizontalProgressLayout" format="reference" />
+    <attr name="headerLayout" format="reference" />
+    <attr name="progressLayout" format="reference" />
+    <attr name="pointerIconArrow" format="reference" />
+    <attr name="pointerIconSpotHover" format="reference" />
+    <attr name="pointerIconSpotTouch" format="reference" />
+    <attr name="pointerIconSpotAnchor" format="reference" />
+    <attr name="pointerIconStylusHover" format="reference" />
+    <attr name="preferencePanelStyle" format="reference" />
+    <attr name="textColorSearchUrl" format="reference|color" />
+    <attr name="popupPromptView" format="reference" />
+    <attr name="dropdownListPreferredItemHeight" format="dimension" />
+    <attr name="thumbDrawable" format="reference" />
+    <attr name="thumbMinWidth" format="dimension" />
+    <attr name="thumbMinHeight" format="dimension" />
+    <attr name="trackDrawable" format="reference" />
+    <attr name="backgroundRight" format="reference" />
+    <attr name="backgroundLeft" format="reference" />
+    <attr name="position">
+        <enum name="aboveThumb" value="2" />
+        <enum name="atThumb" value="1" />
+        <enum name="floating" value="0" />
+    </attr>
+</resources>

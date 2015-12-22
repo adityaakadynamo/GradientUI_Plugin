@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+        <rotate android:fromDegrees="0.0" android:toDegrees="1080.0"  android:pivotX="50.0%" android:pivotY="50.0%">
+            <shape android:dither="true" android:visible="true" android:shape="rectangle" android:useLevel="false" android:thickness="10dp">
+                <gradient android:startColor="#faF0F8FF" android:endColor="#faF0F8FF" android:angle="135.0" android:gradientRadius="40.0" android:centerColor="#40F0F8FF" android:useLevel="false" />
+                <corners android:radius="10.0dip" />
+                <size android:height="10.0dip" android:width="10.0dip" />
+                <stroke android:width="1.0dip" android:color="?android:colorBackground" android:dashWidth="2.0dip" android:dashGap="3.0dip" />
+            </shape>
+    </rotate>
+  </item>
+  <item>
+        <rotate android:fromDegrees="720.0" android:toDegrees="0.0"  android:pivotX="50.0%" android:pivotY="50.0%">
+      <shape android:dither="true" android:visible="true" android:shape="rectangle" android:useLevel="false" android:thickness="30dp">
+          <gradient android:startColor="#faFF69B4" android:endColor="#faFF69B4" android:angle="135.0" android:gradientRadius="40.0" android:centerColor="#40FF00FF" android:useLevel="false" />
+        <corners android:radius="30.0dip" />
+        <size android:height="30.0dip" android:width="30.0dip" />
+        <stroke android:width="1.0dip" android:color="?android:colorBackground" android:dashWidth="2.0dip" android:dashGap="3.0dip" />
+      </shape>
+    </rotate>
+  </item>
+</layer-list>

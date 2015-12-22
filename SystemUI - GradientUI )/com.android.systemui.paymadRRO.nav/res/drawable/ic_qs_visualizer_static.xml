@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="root" android:height="64.0dip" android:width="64.0dip" android:viewportWidth="52.0" android:viewportHeight="52.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="2.0" android:translateY="2.0">
+        <path android:fillColor="?android:colorBackground" android:pathData="M47.5,23.5c0,13.2548828-10.7451172,24-24,24s-24-10.7451172-24-24s10.7451172-24,24-24    S47.5,10.2451172,47.5,23.5z" android:strokeColor="@android:color/holo_blue_light" android:strokeWidth="8.0" android:strokeAlpha="0.4" android:strokeMiterLimit="10.0" />
+        <group android:name="equalizer" android:scaleX="0.7" android:scaleY="0.7" android:translateX="6.9" android:translateY="6.2">
+            <path android:strokeColor="?android:colorEdgeEffect" android:strokeWidth="4.0" android:strokeAlpha="0.4" android:strokeMiterLimit="10.0" android:fillColor="@android:color/holo_blue_bright" android:pathData="M14,42H6v-4h8V42Z M28,38h-8v4h8V38z M42,38h-8v4h8V38z M14,30H6v4h8V30z M28,30h-8v4h8 V30z M42,30h-8v4h8V30z M14,22H6v4h8V22z M28,22h-8v4h8V22z M42,22h-8v4h8V22z M28,14h-8v4h8V14z M42,14h-8v4h8V14z M28,6h-8v4h8V6z" />
+        </group>
+    </group>
+</vector>

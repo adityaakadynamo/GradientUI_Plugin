@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="root" android:height="52.0dip" android:width="52.0dip" android:viewportWidth="52.0" android:viewportHeight="52.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="2.0" android:translateY="2.0">
+        <path android:fillColor="?android:colorBackground" android:pathData="M47.5,23.5c0,13.2548828-10.7451172,24-24,24s-24-10.7451172-24-24s10.7451172-24,24-24    S47.5,10.2451172,47.5,23.5z" android:strokeColor="@android:color/holo_blue_light" android:strokeWidth="8.0" android:strokeAlpha="0.4" android:strokeMiterLimit="10.0" />
+        <clip-path android:name="mask" android:pathData="M-0.5-0.5v48h48v-48H-0.5z M37.1669922,35.2890625L11.7114258,9.8330078l2.1210938-2.121582    l25.456543,25.4555664L37.1669922,35.2890625z" />
+        <path android:strokeColor="?android:colorEdgeEffect" android:strokeWidth="4.0" android:strokeAlpha="0.4" android:strokeMiterLimit="10.0" android:fillColor="@android:color/holo_blue_bright" android:pathData="M11.4125977,28.7626953h7.199707v3.5996094h-7.199707H7.8125v-3.5996094V14.3623047h3.6000977V28.7626953z     M20.4125977,14.3623047H16.8125v3.6000977h3.6000977v14.3999023h3.6000977V17.9624023h3.5996094v-3.6000977h-3.5996094    H20.4125977z M40.2128906,17.9624023v-3.6000977h-7.2001953h-3.6005859v3.6000977V21.5625v3.5996094v3.6005859v3.5996094    h3.6005859h7.2001953v-3.5996094h-7.2001953v-3.6005859h7.2001953V21.5625h-7.2001953v-3.6000977H40.2128906z     M2.4125977,1.7626953" />
+        <group android:name="cross">
+            <path android:name="cross_1" android:fillColor="?android:colorControlNormal" android:pathData="M37.2890625,35.1669922l-2.1220703,2.1220703L9.7114258,11.8330078l2.1210938-2.121582    L37.2890625,35.1669922z" />
+        </group>
+    </group>
+</vector>

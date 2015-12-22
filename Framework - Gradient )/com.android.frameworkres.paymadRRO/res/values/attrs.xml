@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textColorSecondary" format="reference|color" />
+    <attr name="textColorSecondaryInverse" format="reference|color" />
+    <attr name="textColorLinkInverse" format="reference|color" />
+    <attr name="textColorHintInverse" format="reference|color" />
+    <attr name="textColorHighlightInverse" format="reference|color" />
+    <attr name="textColorPrimaryInverse" format="reference|color" />
+    <attr name="dividerVertical" format="reference" />
+	<attr name="textAppearance" format="reference" />
+    <attr name="textColorPrimary" format="reference|color" />
+    <attr name="textColorHighlight" format="reference|color" />
+    <attr name="textColorHint" format="reference|color" />
+    <attr name="textColorLink" format="reference|color" />
+</resources>

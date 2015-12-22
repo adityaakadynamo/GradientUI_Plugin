@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+    <clip>
+        <rotate android:fromDegrees="720.0" android:toDegrees="0.0"  android:pivotX="50.0%" android:pivotY="50.0%">
+            <shape android:dither="true" android:visible="true" android:shape="rectangle" android:useLevel="false" android:thickness="30dp">
+                <gradient android:startColor="#5000FFFF" android:endColor="#50000FFF" android:angle="270.0" android:centerY="0.75" android:centerColor="#00000000" android:useLevel="false" />
+                <corners android:radius="25.0dip" />
+                <size android:height="2.0dip" android:width="42.0dip" />
+                <stroke android:width="1.0dip" android:color="?android:colorBackground" />
+            </shape>
+        </rotate>
+    </clip>
+    </item>
+</layer-list>

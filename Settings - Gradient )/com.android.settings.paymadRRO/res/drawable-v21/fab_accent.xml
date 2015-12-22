@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:innerRadiusRatio="5" android:thicknessRatio="3" android:type="linear" android:centerY="0.1" android:centerX="0.2" android:startColor="?android:colorEdgeEffect" android:endColor="@android:color/holo_blue_bright" android:angle="90.0" android:gradientRadius="18.0" android:centerColor="@android:color/transparent" />
+    <size android:height="3.0dip" android:width="15.0dip" />
+    <stroke android:width="1.0dip" android:color="?android:colorBackground" android:dashWidth="3.0dip" android:dashGap="2.0dip" />
+    <padding android:left="1.0dip" android:top="1.0dip" android:right="1.0dip" android:bottom="1.0dip" />
+    <corners android:topLeftRadius="10.0dip" android:topRightRadius="10.0dip" android:bottomLeftRadius="10.0dip" android:bottomRightRadius="10.0dip" />
+</shape>

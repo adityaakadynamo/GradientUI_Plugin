@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="root" android:height="52.0dip" android:width="52.0dip" android:viewportWidth="52.0" android:viewportHeight="52.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="2.0" android:translateY="2.0">
+        <path android:fillColor="?android:colorBackground" android:pathData="M47.5,23.5c0,13.2548828-10.7451172,24-24,24s-24-10.7451172-24-24s10.7451172-24,24-24    S47.5,10.2451172,47.5,23.5z" android:strokeColor="@android:color/holo_blue_light" android:strokeWidth="8.0" android:strokeAlpha="0.4" android:strokeMiterLimit="10.0" />
+        <group android:name="vector" android:scaleX="1.5" android:scaleY="1.5" android:translateX="5.5" android:translateY="5.0">
+            <path android:strokeColor="?android:colorEdgeEffect" android:strokeWidth="4.0" android:strokeAlpha="0.4" android:strokeMiterLimit="10.0" android:fillColor="@android:color/holo_blue_bright" android:pathData="M16.600000,2.500000c3.300000,1.500000 5.600000,4.700000 6.000000,8.500000l1.500000,0.000000c-0.600000,-6.200000 -5.700000,-11.000000 -12.000000,-11.000000c-0.200000,0.000000 -0.400000,0.000000 -0.700000,0.000000l3.800000,3.800000L16.600000,2.500000zM10.300000,1.700000c-0.600000,-0.600000 -1.500000,-0.600000 -2.100000,0.000000L1.800000,8.100000c-0.600000,0.600000 -0.600000,1.500000 0.000000,2.100000l12.000000,12.000000c0.600000,0.600000 1.500000,0.600000 2.100000,0.000000l6.400000,-6.400000c0.600000,-0.600000 0.600000,-1.500000 0.000000,-2.100000L10.300000,1.700000zM13.400000,19.700001l-9.200000,-9.200000l6.400000,-6.400000l9.200000,9.200000L13.400000,19.700001zM7.600000,21.500000C4.300000,20.000000 2.000000,16.799999 1.600000,13.000000L0.200000,13.000000c0.500000,6.200000 5.600000,11.000000 11.900000,11.000000c0.200000,0.000000 0.400000,0.000000 0.700000,0.000000L9.000000,20.200001L7.600000,21.500000z" />
+        </group>
+    </group>
+</vector>

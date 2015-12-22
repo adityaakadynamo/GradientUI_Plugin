@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dashboard_background_color">@android:color/transparent</color>
+
+    <color name="facelock_spotlight_mask">#a0711212</color>
+	<color name="screen_pinning_request_bg">#a0711212</color>
+    <color name="qs_detail_progress_trac">#a0711212</color>
+    <color name="speedbump_line_bg">#a0711212</color>
+
+    <color name="qs_detail_transition">@android:color/darker_gray</color>
+    <color name="status_bar_recents_app_label_color">@android:color/darker_gray</color>
+    <color name="toggle_text">@android:color/darker_gray</color>
+    <!-- <color name="notification_guts_text_color">@android:color/darker_gray</color> -->
+    <!-- <color name="notification_guts_title_color">@android:color/darker_gray</color> -->
+    <color name="kg_indication_text">@android:color/darker_gray</color>
+    <color name="clock_white">@android:color/darker_gray</color>	
+    <color name="clock_gray">@android:color/darker_gray</color>
+    <color name="kg_battery_level_text">@android:color/darker_gray</color>
+    <color name="kg_carrier_text">@android:color/darker_gray</color>
+    <!-- <color name="qs_user_detail_name">@android:color/darker_gray</color> -->
+    <color name="recents_search_bar_label_text">@android:color/darker_gray</color>	
+    <!-- <color name="screen_pinning_primary_text">@android:color/darker_gray</color> -->
+    <!-- <color name="segmented_button_text_selector">@android:color/darker_gray</color> -->
+    <color name="battery_level_text">@android:color/darker_gray</color>
+    <color name="alarm_status_text">@android:color/darker_gray</color>
+    <!-- <color name="status_bar_temperature_text_color">@android:color/darker_gray</color> -->
+    <!-- <color name="status_bar_temperature_location_text_color">@android:color/darker_gray</color> -->
+    <color name="more_text">@android:color/darker_gray</color>
+    <color name="no_notifications_text">@android:color/darker_gray</color>	
+    <!-- <color name="system_secondary_color">#ffe53935</color>
+    <color name="system_accent_color">#ff00acc1</color>
+    <color name="notification_legacy_background_color">#99191919</color>
+    <color name="notification_material_background_media_default_color">#99191919</color>
+    <color name="system_primary_color">#66191919</color>
+    <color name="notification_material_background_color">#99191919</color>
+    <color name="notification_material_background_dimmed_color">#99191919</color>
+    <color name="notification_material_background_low_priority_color">#99191919</color> -->
+    <color name="notification_ripple_untinted_color">#28ffffff</color>
+    <color name="notification_ripple_color_low_priority">#30ffffff</color>
+    <color name="batterymeter_charge_color">#ffe53935</color>
+
+<color name="volume_panel_background_color">#00000066</color>
+    <!-- this is for quick settings bg color -->
+        <color name="system_primary_color">#ff000006</color>
+     
+    <!-- this is for quick settings action bar color -->
+        <color name="system_secondary_color">#ff000006</color>
+     
+    <!-- self explained -->
+        <color name="system_accent_color">@android:color/darker_gray</color>
+
+<!-- QS Header No Tint 
+    <color name="system_secondary_color">@android:color/holo_blue_light</color> -->
+<!-- QSBlueGrey
+    <color name="system_primary_color">#ff37474f</color> -->
+
+    <color name="fab_color">@android:color/holo_orange_light</color>
+    <!-- <color name="system_accent_color">@android:color/holo_green_dark</color> -->
+    <color name="qs_detail_progress_track">@android:color/holo_purple</color>
+    <color name="notification_legacy_background_color">#00000066</color>
+    <color name="notification_material_background_color">#00000066</color>
+    <color name="notification_material_background_dimmed_color">#00000066</color>
+    <color name="notification_material_background_low_priority_color">#00000066</color>
+    <color name="qs_tile_divider">#00000000</color>
+    <!-- <color name="qs_tile_text">@android:color/darker_gray</color>
+    <color name="segmented_button_text_inactive">@android:color/holo_purple</color>
+    <color name="notification_material_background_media_default_color">#ff212121</color> Background of media control notifications, e.g. Google Play Music notification
+    <color name="notification_ripple_untinted_color">#ff424242</color> Ripple color on regular notifications; appears when notification is touched
+    <color name="notification_ripple_color_low_priority">#ff424242</color> Ripple color on low priority notifications
+    <color name="qs_tile_divider">@android:color/darker_gray</color> ffFDE311 Changes divider between Quick Settings icons
+    <color name="qs_tile_text">#ffFDE311</color> Changes text under Quick Settings icons -->
+    <color name="statusbar_headsup_text">@android:color/darker_gray</color>
+    <color name="statusbar_system_panel_text">@android:color/darker_gray</color>
+    <color name="statusbar_text_button_text">@android:color/darker_gray</color>
+    <color name="status_bar_clock_color">@android:color/darker_gray</color>
+    <color name="statusbar_expanded_clock_text">@android:color/darker_gray</color>
+    <color name="statusbar_expanded_text">@android:color/darker_gray</color>
+    <color name="statusbar_expanded_date_text">@android:color/darker_gray</color>
+    <color name="statusbar_expanded_above_date_time_text">@android:color/darker_gray</color>
+    <color name="statusbar_expanded_network_text">@android:color/darker_gray</color>
+    <color name="statusbar_expanded_network_emergency_only_text">@android:color/darker_gray</color>
+    <color name="data_usage_secondary">@android:color/darker_gray</color>
+    <color name="qs_subhead">@android:color/darker_gray</color>
+    <color name="material_notification_parenthetical_text">@android:color/darker_gray</color>
+</resources>

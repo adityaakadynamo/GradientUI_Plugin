@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="root" android:height="52.0dip" android:width="52.0dip" android:viewportWidth="52.0" android:viewportHeight="52.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="2.0" android:translateY="2.0">
+        <path android:fillColor="?android:colorBackground" android:pathData="M47.5,23.5c0,13.2548828-10.7451172,24-24,24s-24-10.7451172-24-24s10.7451172-24,24-24    S47.5,10.2451172,47.5,23.5z" android:strokeColor="@android:color/holo_blue_light" android:strokeWidth="8.0" android:strokeAlpha="0.4" android:strokeMiterLimit="10.0" />
+        <group android:name="vector" android:scaleX="1.5" android:scaleY="1.5" android:translateX="5.8" android:translateY="5.2">
+            <path android:strokeColor="?android:colorEdgeEffect" android:strokeWidth="4.0" android:strokeAlpha="0.4" android:strokeMiterLimit="10.0" android:fillColor="@android:color/holo_blue_bright" android:pathData="M0.0,15.0l2.0,0.0L2.0,9.0L0.0,9.0L0.0,15.0zM3.0,17.0l2.0,0.0L5.0,7.0L3.0,7.0L3.0,17.0zM22.0,9.0l0.0,6.0l2.0,0.0L24.0,9.0L22.0,9.0zM19.0,17.0l2.0,0.0L21.0,7.0l-2.0,0.0L19.0,17.0zM16.5,3.0l-9.0,0.0C6.7,3.0 6.0,3.7 6.0,4.5l0.0,15.0C6.0,20.3 6.7,21.0 7.5,21.0l9.0,0.0c0.8,0.0 1.5,-0.7 1.5,-1.5l0.0,-15.0C18.0,3.7 17.3,3.0 16.5,3.0zM16.0,19.0L8.0,19.0L8.0,5.0l8.0,0.0L16.0,19.0z" />
+        </group>
+    </group>
+</vector>

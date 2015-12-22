@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="root" android:height="52.0dip" android:width="52.0dip" android:viewportWidth="52.0" android:viewportHeight="52.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="2.0" android:translateY="2.0">
+        <path android:fillColor="?android:colorBackground" android:pathData="M47.5,23.5c0,13.2548828-10.7451172,24-24,24s-24-10.7451172-24-24s10.7451172-24,24-24    S47.5,10.2451172,47.5,23.5z" android:strokeColor="@android:color/holo_blue_light" android:strokeWidth="8.0" android:strokeAlpha="0.4" android:strokeMiterLimit="10.0" />
+        <clip-path android:name="mask" android:pathData="M-0.5-0.5v48h48v-48H-0.5z M37.1669922,35.2890625L11.7114258,9.8330078l2.1210938-2.121582    l25.456543,25.4555664L37.1669922,35.2890625z" />
+        <group android:name="vector" android:scaleX="0.8" android:scaleY="0.8" android:translateX="4.9" android:translateY="4.3">
+            <path android:strokeColor="?android:colorEdgeEffect" android:strokeWidth="4.0" android:strokeAlpha="0.4" android:strokeMiterLimit="10.0" android:fillColor="@android:color/holo_blue_bright" android:pathData="M25.0214844,5.1293945l6.2373047,16.9106445c0.3212891,0.8837891,0.3212891,1.9462891,0,2.9228516l-6.2373047,16.9101563    c-0.5600586,1.5029297-2.480957,1.5029297-3.0410156,0l-6.2407227-16.9101563    c-0.3198242-0.8867188-0.3198242-1.9487305,0-2.9228516l6.2407227-16.9106445    C22.5405273,3.6245117,24.4614258,3.6245117,25.0214844,5.1293945z M23.5004883,19.9140625    c-1.7607422,0-3.199707,1.5947266-3.199707,3.5410156c0,1.9492188,1.4389648,3.5419922,3.199707,3.5419922    c1.7592773,0,3.1987305-1.5927734,3.1987305-3.5419922C26.6992188,21.5087891,25.2597656,19.9140625,23.5004883,19.9140625z     M25.1015625,14.6020508v-3.5415039c0-0.9741211-0.7202148-1.7709961-1.6010742-1.7709961    c-0.8793945,0-1.5996094,0.796875-1.5996094,1.7709961v3.5415039c0,0.9741211,0.7202148,1.7705078,1.5996094,1.7705078    C24.3813477,16.3725586,25.1015625,15.5761719,25.1015625,14.6020508z" />
+        </group>
+        <group android:name="cross">
+            <path android:name="cross_1" android:fillColor="?android:colorControlNormal" android:pathData="M37.2890625,35.1669922l-2.1220703,2.1220703L9.7114258,11.8330078l2.1210938-2.121582    L37.2890625,35.1669922z" />
+        </group>
+    </group>
+</vector>

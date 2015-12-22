@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="root" android:height="52.0dip" android:width="52.0dip" android:viewportWidth="52.0" android:viewportHeight="52.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="2.0" android:translateY="2.0">
+        <path android:fillColor="?android:colorBackground" android:pathData="M47.5,23.5c0,13.2548828-10.7451172,24-24,24s-24-10.7451172-24-24s10.7451172-24,24-24    S47.5,10.2451172,47.5,23.5z" android:strokeColor="@android:color/holo_blue_light" android:strokeWidth="8.0" android:strokeAlpha="0.4" android:strokeMiterLimit="10.0" />
+        <clip-path android:name="mask" android:pathData="M-0.5-0.5v48h48v-48H-0.5z M37.1669922,35.2890625L11.7114258,9.8330078l2.1210938-2.121582    l25.456543,25.4555664L37.1669922,35.2890625z" />
+        <group android:name="vector" android:scaleX="0.8" android:scaleY="0.8" android:translateX="5.0" android:translateY="4.5">
+            <group android:name="arrows" android:translateX="-0.23909" android:translateY="-0.10807">
+                <path android:name="path_3" android:strokeColor="@android:color/holo_blue_dark" android:strokeWidth="3.0" android:strokeAlpha="0.3" android:strokeMiterLimit="10.0" android:fillColor="@android:color/darker_gray" android:pathData="M23.4375,18.140625h-4.5v20h-9v-20h-4.5l9-12L23.4375,18.140625z" android:fillAlpha="1.0" />
+                <path android:name="path_4" android:strokeColor="@android:color/holo_blue_dark" android:strokeWidth="3.0" android:strokeAlpha="0.3" android:strokeMiterLimit="10.0" android:fillColor="@android:color/darker_gray" android:pathData="M23.5625,28.859375h4.5v-20h9v20h4.5l-9,12L23.5625,28.859375z" android:fillAlpha="1.0" />
+            </group>
+        </group>
+        <group android:name="cross">
+            <path android:name="cross_1" android:fillColor="?android:colorControlNormal" android:pathData="M37.2890625,35.1669922l-2.1220703,2.1220703L9.7114258,11.8330078l2.1210938-2.121582    L37.2890625,35.1669922z" />
+        </group>
+    </group>
+</vector>

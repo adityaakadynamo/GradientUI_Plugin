@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="4.0dip" android:insetRight="4.0dip" android:insetTop="6.0dip" android:insetBottom="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:dither="false" android:visible="false" android:shape="rectangle" android:useLevel="true">
+    <gradient android:startColor="#99060066" android:endColor="#99060066" android:angle="135.0" android:gradientRadius="60.0" android:centerColor="#5032cd32" />
+    <size android:height="3.0dip" android:width="15.0dip" />
+    <stroke android:width="1.0dip" android:color="?android:colorBackground" android:dashWidth="3.0dip" android:dashGap="2.0dip" />
+    <padding android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip" />
+    <corners android:topLeftRadius="10.0dip" android:topRightRadius="10.0dip" android:bottomLeftRadius="10.0dip" android:bottomRightRadius="10.0dip" />
+</shape>
+</inset>
