@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="base_layer">false</item>
+    <item type="id" name="search_key_label">false</item>
+    <item type="id" name="search_key_edit">false</item>
+    <item type="id" name="search_mode">false</item>
+    <item type="id" name="search_type_label">false</item>
+    <item type="id" name="filterSpinner">false</item>
+    <item type="id" name="mask" />
+    <item type="id" name="home" />
+    <item type="id" name="up" />
+    <item type="id" name="selected_conv_count">false</item>
+    <item type="id" name="unread_conv_count">false</item>
+    <item type="id" name="custom_title_root">false</item>
+    <item type="id" name="message_title">false</item>
+    <item type="id" name="message_count">false</item>
+    <item type="id" name="empty_message">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="messages">false</item>
+    <item type="id" name="recipient">false</item>
+    <item type="id" name="status">false</item>
+    <item type="id" name="delivery_date">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="banner_sms_promo">false</item>
+    <item type="id" name="empty">false</item>
+    <item type="id" name="banner_sms_default_app_icon">false</item>
+    <item type="id" name="banner_sms_promo_title">false</item>
+    <item type="id" name="floating_action_button">false</item>
+</resources>

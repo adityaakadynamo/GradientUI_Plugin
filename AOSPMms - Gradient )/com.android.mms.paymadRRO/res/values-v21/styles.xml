@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialtactsTheme1" parent="@android:style/Theme.Material">
+        <item name="android:colorForeground">#00000000</item>
+        <item name="android:colorBackground">#00000000</item>
+        <item name="android:textColorPrimary">@android:color/holo_blue_bright</item>
+        <item name="android:textColorSecondary">@android:color/holo_blue_bright</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:colorForegroundInverse">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:colorControlNormal">#a000ddff</item>
+        <item name="android:colorControlActivated">#a000ddff</item>
+        <item name="android:colorButtonNormal">#60ffffff</item>
+        <item name="android:colorControlHighlight">#a000ddff</item>
+        <item name="android:colorPrimary">#00000000</item>
+        <item name="android:colorPrimaryDark">#00000000</item>
+        <item name="android:colorAccent">@android:color/holo_red_dark</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:navigationBarColor">#00000000</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+    </style>
+</resources>

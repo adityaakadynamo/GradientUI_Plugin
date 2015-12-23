@@ -8,7 +8,7 @@
         android:targetSdkVersion="23"
         android:maxSdkVersion="21" />
 
-<overlay android:targetPackage="com.android.systemui" android:priority="50"/>
+<overlay android:targetPackage="com.android.systemui" android:priority="200"/>
     <meta-data android:name="rom" android:value="Many Roms"/>
     <meta-data android:name="infoShort" android:value="paymad theme"/>
     <meta-data android:name="infoLong" android:value="This will theme systemui to paymad theme"/>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textColorPrimaryActivated" format="reference|color" />
+    <attr name="textColorSecondaryActivated" format="reference|color" />
+    <attr name="textColorSearchUrl" format="reference|color" />
+    <attr name="colorSwitchThumbNormal" format="color" />
+    <attr name="windowBackgroundFallback" format="reference" />
+    <attr name="searchWidgetCorpusItemBackground" format="reference|color" />
+    <attr name="errorMessageBackground" format="reference" />
+    <attr name="errorMessageAboveBackground" format="reference" />
+    <attr name="panelMenuListTheme" format="reference" />
+    <attr name="switchBarMarginStart" format="dimension" />
+    <attr name="switchBarMarginEnd" format="dimension" />
+    <attr name="searchHintIcon" format="reference" />
+    <attr name="searchViewStyle" format="reference" />
+</resources>

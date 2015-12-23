@@ -12,7 +12,7 @@ Targeting the right packageName of the 'target.apk' here!
 We can find the real packageName in the AndroidManifest.xml of original target.apk!
 So the matching resources id can be set in accordance.
 -->
-<overlay android:targetPackage="com.android.settings" android:priority="50"/>
+<overlay android:targetPackage="com.android.settings" android:priority="200"/>
     <meta-data android:name="rom" android:value="Many Roms"/>
     <meta-data android:name="infoShort" android:value="Settings theme"/>
     <meta-data android:name="infoLong" android:value="This will change Settings to paymad theme"/>
