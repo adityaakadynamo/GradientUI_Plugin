@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- <style name="Widget.Material.Button" parent="@style/Widget.Material">
+        <item name="android:textAppearance">?android:textAppearanceButton</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_default_material</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:minWidth">88.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style> -->
+<!-- ============================= -->
     <style name="Theme.Material.Dialog.MinWidth" parent="@android:style/Theme.Material.Dialog">
         <item name="android:windowMinWidthMajor">65.0%</item>
         <item name="android:windowMinWidthMinor">95.00001%</item>
@@ -109,16 +120,6 @@
         <item name="android:background">@android:color/transparent</item>
         <item name="android:stateListAnimator">@null</item>
     </style>
-    <!-- <style name="Widget.Material.Button" parent="@style/Widget.Material">
-        <item name="android:textAppearance">?android:textAppearanceButton</item>
-        <item name="android:gravity">center</item>
-        <item name="android:background">@drawable/btn_default_material</item>
-        <item name="android:focusable">true</item>
-        <item name="android:clickable">true</item>
-        <item name="android:minWidth">88.0dip</item>
-        <item name="android:minHeight">48.0dip</item>
-        <item name="android:stateListAnimator">@null</item>
-    </style> -->
     <style name="Widget.Material.Light.ButtonBar.AlertDialog" parent="@style/Widget.Material.ButtonBar.AlertDialog" />
     <style name="Widget.Material.ButtonBar.AlertDialog" parent="@style/Widget.Material.ButtonBar">
         <item name="android:background">@android:color/transparent</item>
@@ -358,10 +359,7 @@
         <item name="android:itemTextAppearance">?android:textAppearanceMedium</item>
     </style>
     <style name="Theme.Material.Light.DialogWhenLarge" parent="@style/Theme.Material.DialogWhenLarge" />
-
-
-
-
+<!-- ============================= -->
     <style name="Holo" />
     <style name="Material" />
     <style name="ThemeOverlay" />
