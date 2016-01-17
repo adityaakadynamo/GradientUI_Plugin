@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="btn_keyboard_key_normal_off_lxx_dark">#ff2e2e2e</item>
+    <item type="drawable" name="btn_keyboard_key_normal_on_lxx_dark">#ff2e2e2e</item>
+    <item type="drawable" name="btn_keyboard_key_normal_off_lxx_light">#ffeceff1</item>
+    <item type="drawable" name="btn_keyboard_key_normal_on_lxx_light">#ffeceff1</item>
+    <item type="drawable" name="btn_keyboard_key_pressed_off_lxx_dark">#00000000</item>
+    <item type="drawable" name="btn_keyboard_key_pressed_off_lxx_light">#ffcbdae5</item>
+    <item type="drawable" name="btn_keyboard_key_pressed_on_lxx_dark">#00000000</item>
+    <item type="drawable" name="btn_keyboard_key_pressed_on_lxx_light">#ffcbdae5</item>
+</resources>

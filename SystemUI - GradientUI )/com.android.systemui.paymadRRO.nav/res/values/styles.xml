@@ -41,10 +41,8 @@
         <item name="android:shadowDy">8</item>
         <item name="android:shadowRadius">20.0</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <!--
         <item name="android:textAppearance">@style/TextAppearance</item>
         <item name="android:textAppearanceInverse">@style/TextAppearance.Material.Inverse</item>
-        -->
         <item name="android:textColor">@android:color/holo_blue_bright</item>
         <item name="android:textColorHint">@android:color/holo_red_dark</item>
         <item name="android:textColorHintInverse">@android:color/holo_blue_bright</item>
@@ -143,9 +141,7 @@
         <item name="android:shadowDy">8</item>
         <item name="android:shadowRadius">20.0</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <!--
         <item name="android:textAppearance">@style/TextAppearance</item>
-        -->
         <item name="android:textColor">@android:color/holo_blue_bright</item>
         <item name="android:textColorHint">@android:color/holo_red_dark</item>
         <item name="android:textColorHintInverse">@android:color/holo_blue_bright</item>
@@ -176,7 +172,7 @@
         <item name="android:windowTranslucentStatus">false</item>
         <item name="textColorSearchUrl">@android:color/holo_blue_bright</item>
     </style>
-    <!-- <style name="TextAppearance">
+    <style name="TextAppearance">
         <item name="android:textColor">@android:color/holo_blue_bright</item>
         <item name="android:textColorHighlight">@android:color/holo_red_dark</item>
         <item name="android:textColorHint">@android:color/holo_red_dark</item>
@@ -335,5 +331,5 @@
         <item name="android:shadowDx">5.0</item>
         <item name="android:shadowDy">8.0</item>
         <item name="android:shadowRadius">20.0</item>
-    </style> -->
+    </style>
 </resources>

@@ -171,29 +171,6 @@
  <color name="Navy">#000080</color>
  <color name="Black">#000000</color>
 
-    <!-- <color name="background_dark">#7f000000</color> -->
-    <!-- <color name="background_floating_material_dark">#7f424242</color> -->
-    <!-- <color name="background_leanback_dark">#50222222</color> -->
-    <!-- <color name="background_material_dark">#ff21272b</color> -->
-    <!-- <color name="dim_foreground_material_light">@android:color/transparent</color> -->
-    <!-- <color name="exposed_bg_dark">#7f000000</color> -->
-    <!-- <color name="exposed_notify_action_text">#ffffffff</color> -->
-    <!-- <color name="exposed_primary_text_light">#ffffffff</color> -->
-    <!-- <color name="exposed_resolver_list_bg">#7f424242</color> -->
-    <!-- <color name="exposed_secondary_text_light">#fffafafa</color> -->
-    <!-- <color name="holo_blue_bright">#ff888888</color> -->
-    <!-- <color name="holo_blue_dark">#ff888888</color> -->
-    <!-- <color name="holo_blue_light">#ff888888</color> -->
-    <!-- <color name="link_text_material_dark">#ff448aff</color> -->
-    <!-- <color name="link_text_material_light">#ff2962ff</color> -->
-    <!-- <color name="notification_action_color_filter">#ffffffff</color> -->
-    <!-- <color name="notification_icon_bg_color">#50ffdf0f</color> -->
-    <!-- <color name="notification_mtrl_action_textcolor">#ffffffff</color> -->
-    <!-- <color name="notification_mtrl_big_picture_bg">#7f263238</color> -->
-    <!-- <color name="primary_material_dark">#ff21272b</color> -->
-    <!-- <color name="secondary_text_default_material_light">#ff9e9e9e</color> -->
-    <!-- <color name="system_notification_accent_color">@android:color/holo_blue_bright</color> -->
-	
     <color name="black">#ff000006</color>
     <color name="darker_gray">#ff777777</color>
     <color name="transparent">#00000000</color>
@@ -204,7 +181,6 @@
     <color name="holo_orange_light">#ffffbb33</color>
     <color name="holo_red_dark">#ffcc0000</color>
     <color name="holo_red_light">#fff44336</color>
-
 
     <!-- <color name="background_dark">#66191919</color> -->
     <!-- <color name="holo_blue_bright">#ff2f3e5f</color>
@@ -218,24 +194,24 @@
     <color name="background_leanback_light">#50222222</color>
     <color name="background_material_dark">#66191919</color>
     <color name="background_material_light">#ffffffff</color>
-    <color name="bright_foreground_dark">@android:color/darker_gray</color>
-    <color name="bright_foreground_dark_disabled">@android:color/darker_gray</color>
-    <color name="bright_foreground_dark_inverse">@android:color/darker_gray</color>
-    <color name="bright_foreground_disabled_holo_dark">@android:color/darker_gray</color>
-    <color name="bright_foreground_disabled_holo_light">@android:color/darker_gray</color>
-    <color name="bright_foreground_disabled_material_dark">@android:color/darker_gray</color>
-    <color name="bright_foreground_disabled_material_light">@android:color/darker_gray</color>
-    <color name="bright_foreground_holo_dark">@android:color/darker_gray</color>
-    <color name="bright_foreground_holo_light">@android:color/darker_gray</color>
-    <color name="bright_foreground_inverse_holo_dark">@android:color/darker_gray</color>
-    <color name="bright_foreground_inverse_holo_light">@android:color/darker_gray</color>
-    <color name="bright_foreground_inverse_material_dark">@android:color/darker_gray</color>
-    <color name="bright_foreground_inverse_material_light">@android:color/darker_gray</color>
-    <color name="bright_foreground_light">@android:color/darker_gray</color>
-    <color name="bright_foreground_light_disabled">@android:color/darker_gray</color>
-    <color name="bright_foreground_light_inverse">@android:color/darker_gray</color>
-    <color name="bright_foreground_material_dark">@android:color/darker_gray</color>
-    <color name="bright_foreground_material_light">@android:color/darker_gray</color>
+    <color name="bright_foreground_dark">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_dark_disabled">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_dark_inverse">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_disabled_holo_dark">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_disabled_holo_light">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_disabled_material_dark">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_disabled_material_light">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_holo_dark">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_holo_light">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_inverse_holo_dark">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_inverse_holo_light">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_inverse_material_dark">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_inverse_material_light">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_light">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_light_disabled">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_light_inverse">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_material_dark">@android:color/holo_blue_bright</color>
+    <color name="bright_foreground_material_light">@android:color/holo_blue_bright</color>
     <color name="button_material_dark">@android:color/holo_blue_light</color>
     <color name="button_material_light">@android:color/holo_blue_light</color>
     <color name="chooser_grid_bg">@android:color/background_dark</color>
@@ -289,20 +265,11 @@
     <color name="notification_icon_bg_color">#00000000</color>
     <color name="notification_mtrl_big_picture_bg">@android:color/holo_purple</color>
     <color name="notification_progress_background_color">#fffafafa</color>
+    <color name="primary_dark_material_dark">@android:color/holo_blue_bright</color>
     <color name="primary_material_dark">#ff191919</color>
     <color name="primary_material_light">#ffffffff</color>
     <color name="resolver_list_bg">@android:color/background_dark</color>
     <color name="ripple_material_dark">#4dffffff</color>
     <color name="ripple_material_light">#4dffffff</color>
     <color name="search_widget_corpus_item_background">@android:color/transparent</color>
-
-<!-- material -->
-    <!-- <color name="highlighted_text_material_dark">@android:color/darker_gray</color> -->
-    <!-- <color name="highlighted_text_material_light">@android:color/darker_gray</color> -->
-    <!-- <color name="link_text_material_dark">@android:color/darker_gray</color> -->
-    <!-- <color name="link_text_material_light">@android:color/darker_gray</color> -->
-    <!-- <color name="primary_dark_material_dark">@android:color/darker_gray</color> -->
-    <!-- <color name="primary_material_dark">@android:color/darker_gray</color> -->
-    <!-- <color name="ripple_material_dark">@android:color/transparent</color> -->
-    <!-- <color name="ripple_material_light">@android:color/transparent</color> -->
 </resources>

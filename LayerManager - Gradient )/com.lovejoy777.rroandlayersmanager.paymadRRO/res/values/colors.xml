@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_light">#293319</color>
+    <color name="accent">#a9ff5252</color>
+
+    <color name="background">#00000000</color>
+    <color name="background_material_light">#00000000</color>
+    <color name="card_background">#40000000</color>
+    <color name="divider">#00000000</color>
+    <color name="text_color_inverse">@android:color/holo_blue_bright</color>
+    <color name="text_color_secondary">@android:color/holo_blue_bright</color>
+    <color name="app_text_secondary">@android:color/holo_blue_bright</color>
+    <color name="about_text">@android:color/holo_blue_bright</color>
+    <color name="textColorPrimary">@android:color/holo_blue_bright</color>
+    <color name="cardview_light_background">#40000000</color>
+    <color name="primary_text_default_material_light">@android:color/holo_blue_bright</color>
+    <color name="background_floating_material_light">#7f000000</color>
+</resources>
